@@ -48,3 +48,6 @@
 | `spark.sql.autoBroadcastJoinThreshold`               | default (10MB)                               | Dataset B (~10k rows) fits, enables broadcast join automatically.        |
 | GC options (optional)                                | `-XX:+UseG1GC`                               | For larger datasets; reduces GC overhead.                                |
 | `numPartitions` for `reduceByKey` / `aggregateByKey` | 8                                            | Tuned to match shuffle partitions, avoids too many small tasks.          |
+
+
+All content above generated with `Perplexity`
