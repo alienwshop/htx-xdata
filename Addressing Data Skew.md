@@ -65,3 +65,5 @@ val normalCounts = normalRDD
 
 val itemCounts = normalCounts.union(hotKeyCounts)
 ```
+
+Above content generated with `Perplexity`
